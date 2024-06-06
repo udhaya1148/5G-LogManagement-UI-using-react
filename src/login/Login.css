@@ -1,0 +1,187 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styling */
+  .logincontainer {
+    height: 100vh;
+    background: url("https://static-prod.adweek.com/wp-content/uploads/2019/03/5g-page-reverse-2019.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Logo styling */
+  .logo1 {
+    height: 35px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+  
+  .logo1 img {
+    margin-top: 0;
+    height: 50px;
+    width: 90px;
+  }
+  
+  /* Navigation styling */
+  nav {
+    background: transparent;
+  }
+  
+  nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    flex-direction: row;
+    
+  }
+  
+  nav li {
+    height: 50px;
+  }
+  
+  .nav-link1 {
+    margin-top: 20px;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    /* align-items: center; */
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: serif;
+  }
+  
+  nav li:first-child {
+    margin-right: auto;
+  }
+  
+  /* Sidebar styling */
+  .sidebar1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(28, 31, 218, 0.411);
+    backdrop-filter: blur(30px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .sidebar1 li {
+    width: 100%;
+  }
+  
+  .sidebar1 a, .sidebar1 .nav-link1{
+    width: 100%;
+  }
+  
+  /* Menu button and close button styling */
+  .menu-button {
+    display: none;
+  }
+  
+  .menu-button svg {
+    fill: white;
+  }
+  
+  .close-button svg {
+    fill: white;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 500px) {
+    .hide1 {
+      display: none;
+    }
+    .menu-button {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .sidebar1 {
+      width: 100%;
+    }
+  }
+  
+  /* Popup styling */
+  .popup {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+  }
+  
+  button {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 30px;
+    font-family: "Jersey 15", sans-serif;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Display states */
+  .popup.show1 {
+    display: block;
+  }
+  
+  .sidebar1.show1{
+    display: flex;
+  }
+  
+  .sidebar1.hide1 {
+    display: none;
+  }
+  
