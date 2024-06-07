@@ -9,12 +9,12 @@
     Select variant --> javascript
 ```
 
-3) Install node package
+2) Install node package
 ```
   npm i node
 ```
 
-5) Run project
+3) Run project
 ```
    npm run dev
 ```
