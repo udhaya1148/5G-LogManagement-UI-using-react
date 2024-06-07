@@ -18,5 +18,14 @@
 ```
    npm run dev
 ```
-   
 
+
+# In this project React for diplay the webpage 
+
+# Python for collect and filter logs from kubernetes pods 
+
+# Telegraf for monitor logs
+
+# influxdb for store telegraf data
+
+# Grafana for display influxdb data visually
