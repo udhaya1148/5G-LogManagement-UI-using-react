@@ -16,7 +16,7 @@ def extract_info(line):
 
 def read_logs(pod_name, namespace):
     data = []
-    command = ["microk8s", "kubectl", "logs", pod_name, "-n", namespace]
+    command = ["kubectl", "logs", pod_name, "-n", namespace]
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     for line in process.stdout:
         line = line.decode().strip()

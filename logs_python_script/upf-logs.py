@@ -19,7 +19,7 @@ def extract_info(line):
     return info
 
 def get_filtered_logs():
-    command = "microk8s kubectl logs my-open5gs-upf-deployment-c985d445c-7p4nv -n open5gs"
+    command = "kubectl logs my-open5gs-upf-deployment-c985d445c-7p4nv -n open5gs"
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     
     logs_data = []
