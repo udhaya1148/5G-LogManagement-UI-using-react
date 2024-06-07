@@ -10,9 +10,13 @@
 ```
 
 3) Install node package
+```
   npm i node
+```
 
-4) Run project
+5) Run project
+```
    npm run dev
+```
    
 
