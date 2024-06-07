@@ -10,5 +10,6 @@
   npm i node
 
 3) Run project
-   npm run dev 
+   npm run dev
+   
 
