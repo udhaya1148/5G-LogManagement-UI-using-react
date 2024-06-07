@@ -1,8 +1,14 @@
-# React + Vite
+# React + Vite based Logmanagement Webpage 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1) Create project structure 
+  1) npm create vite@latest
+  2) Give project name
+  3) Select framework --> react
+  4) Select variant --> javascript
 
-Currently, two official plugins are available:
+2) Install node package
+  npm i node
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3) Run project
+   npm run dev 
+
