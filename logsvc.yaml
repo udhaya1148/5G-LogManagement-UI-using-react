@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: logmanagement-ui
+  name: logmanagement-5gui
   namespace: aether-ui
 spec:
   selector:
-    app: logmanagement-ui
+    app: logmanagement-5gui
   ports:
   - protocol: TCP
     port: 3003
