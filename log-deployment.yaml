@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: logmanagement-ui
+  name: logmanagement-5gui
   namespace: aether
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: logmanagement-ui
+      app: logmanagement-5gui
   template:
     metadata:
       labels:
-        app: logmanagement-ui
+        app: logmanagement-5gui
     spec:
       containers:
-      - name: logmanagement-ui
+      - name: logmanagement-5gui
         image: udhaya21/logmanagement-ui:latest
 
