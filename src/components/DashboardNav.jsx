@@ -44,11 +44,6 @@ function DashboardNav() {
           </li>
         </ul> */}
         <ul>
-          <li className="logo">
-            <Link to="https://www.netconglobal.com/">
-              <img src="https://isacfoundation.org/wp-content/uploads/2020/07/netcon-logo.png" alt="Netcon Logo" />
-            </Link>
-          </li>
           {/* <li className="menu-button" onClick={showSidebar}>
             <Link to="#" className="nav-link">
               <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
