@@ -56,7 +56,6 @@ function Login() {
           </ul>
 
           <ul>
-            <li className="logo1"><Link to="https://www.netconglobal.com/"><img src="https://isacfoundation.org/wp-content/uploads/2020/07/netcon-logo.png" alt="logo" /></Link></li>
             <li className="hide1"><Link to="/" className="nav-link">Home</Link></li>
             <li className="hide1"><Link to="#" className="nav-link">About</Link></li>
             <li className="hide1"><Link to="#" className="nav-link">Contact</Link></li>
